@@ -1,2 +1,2 @@
 # montecarlopi
-Monte Carlo simulation to estimate pi
+Monte Carlo simulation to estimate pi. x and y coordinates for points are generated randomly within a 1x1 grid, where points with coordinates such that x^2 + y^2 < 1 are marked red, and points where x^2 + y^2 > 1 are marked green. The total amount of points genereated within the x^2 + y^2 < 1 bound are counted, and dividing that number by the total number of dots provides an estimate for pi/4.
